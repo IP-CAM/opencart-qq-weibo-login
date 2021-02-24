@@ -1,25 +1,25 @@
-#说明
+# Description
 
-修改来自[Opencart 1.5.5.1适用的第三方登录插件（qq和新浪微博）](http://www.opencart.cn/forum.php?mod=viewthread&tid=9515)，感谢原作者。
+Modification from [OpenCart 1.5.5.1 Applicable third-party login plug-in (QQ and Sina Weibo)] (http://www.opencart.cn/forum.php?mod=viewthread&tid=9515), thanks to the original author.
 
-#QQ微博登录
+#QQ Weibo login
 
-用于Opencart，增加QQ与微博第三方登录。
+For OpenCart, add QQ to log in with Weibo third parties.
 
-QQ登录使用了 JS SDK，[开发文档](http://wiki.open.qq.com/wiki/website/JS_SDK%E4%BD%BF%E7%94%A8%E8%AF%B4%E6%98%8E)；
+QQ login uses JS SDK, [Development Document] (http://wiki.open.qq.com/wiki/website/js_sdk%e4%BD%BF%E7%94%A8%E8%AF%B4%E6% 98% 8E);
 
-微博使用了 PHP SaeTOAuthV2类，[开发文档](http://open.weibo.com/wiki/%E9%A6%96%E9%A1%B5)，[JS SDK开发文档](http://open.weibo.com/wiki/index.php/Weibo-JS_V2)。
+Weibo uses PHP Saetoauthv2 class, [Development Document] (http://open.weibo.com/wiki/%E9%A6%96% E9% A1%B5), [JS SDK Development Document] (http: // Open.WeiBo.com/wiki/index.php/weibo-js_v2).
 
-#安装
+#installation
 
-确保Opencart已经安装vamod。
+Make sure OpenCART has already installed VAMOD.
 
-安装xml文件，然后刷新并为管理员组添加权限，可以在Tools下找到。
+Install the XML file, then refresh it and add permissions to the administrator group, you can find it under Tools.
 
-#vqmod安装
+#vqmod installation
 
-下载[vqmod for opencart](http://www.opencart.com/index.php?route=extension/extension/info&extension_id=19501)，[vqmod](https://github.com/vqmod/vqmod)
+Download [VQMOD for OpenCart] (http://www.opencart.com/index.php?route=extension/extension/info&ofo ts ion_id=19501), [VQMOD] (https://github.com/vqmod/vqmod)
 
-把vqmod文件放到system同级的目录下，执行example.com/vqmod/install，注意权限；
+Put the VQMOD file in the SYSTEM in the same directory, execute the example.com/vqmod/install, pay attention to permissions;
 
-把vqmod for opencart2 的文件解压替换。
+Replace the file of VQMOD for OpenCart2.
