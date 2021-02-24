@@ -1,6 +1,7 @@
 # Description
 
-Modification from [OpenCart 1.5.5.1 Applicable third-party login plug-in (QQ and Sina Weibo)] (http://www.opencart.cn/forum.php?mod=viewthread&tid=9515), thanks to the original author.
+Modification from OpenCart 1.5.5.1 Applicable third-party login plug-in (QQ and Sina Weibo
+http://www.opencart.cn/forum.php?mod=viewthread&tid=9515), thanks to the original author.
 
 #QQ Weibo login
 
@@ -12,7 +13,7 @@ Weibo uses PHP Saetoauthv2 class, [Development Document] (http://open.weibo.com/
 
 #installation
 
-Make sure OpenCART has already installed VAMOD.
+Make sure OpenCART has already installed VQMOD.
 
 Install the XML file, then refresh it and add permissions to the administrator group, you can find it under Tools.
 
